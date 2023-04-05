@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/loginform.css">
+    <script defer src="./js/index.js"></script>
+</head>
+<body>
+    <div class="login-form">
+    <form action="/" id="form"></form>
+    <header>
+        <h2>login-form</h2>
+        <div class="p"> 
+            <span>Fill out the form with accurate data</span>
+        </div>
+    </header>
+    <main>
+        <div class="form-field error success">
+            <div class="first">
+                <label for="">First name</label>
+                <input type="text" name="f_name" id="f_name" placeholder="enter first name">
+                <small></small>
+            </div>
+        </div>
+        <div class="second">
+            <label for="">Last name</label>
+            <input type="text" name="l_name" id="l_name" placeholder="enter last name">
+        </div>
+        <div>
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="male">male
+            <input type="radio" name="gender" id="female ">female
+        </div>
+        <div>
+            <label for="">What brings you here?</label>
+            <select name="reason" id="">
+                <option value="none">choose your reason</option>
+                <option value="read">follow</option>
+                <option value="learn">learn</option>
+                <option value="tips">tips</option>
+                <option value="curiosity">see things out</option>
+            </select>
+        </div>
+         <div>
+          <label for="">email</label>
+         <input type="email" name="email" id="email" placeholder="email address" required>
+       </div>
+       <div>
+        <label for="">password</label>
+       <input type="passworrd" name="password" id="password" placeholder="enter password" autocomplete="off
+       " required>
+     </div>
+     <div>
+        <label for=""> confirm password</label>
+       <input type="passworrd" name="pass" id="repassword" placeholder="re-enter password" autocomplete="off
+       " required>
+     </div>
+     <div class="">
+         <button type="submit">sign up</button>
+         <!-- <span><a href="login.html">login</a>instead!</span> -->
+     </div>
+    </div>
+        
+     
+    </main>
+</body>
+</html>
+

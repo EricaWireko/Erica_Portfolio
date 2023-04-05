@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heartbeat{
+    margin: 22px;
+    font-size: 152px;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    animation-name:heartbeat ;
+    animation-duration: 500ms;
+    animation-timing-function:
+    ease ease-in-out;
+    animation-iteration-count: infinite;
+    
+
+
+
+    /* animation: heart 500ms ease-in-out infinite; */
+}
+@keyframes heartbeat {
+    0%{
+        transform: scale(0.5);
+        
+
+    }
+    50%{
+        transform: scale(0.2);
+
+    } 
+    100%{
+        transform: scale(0.5);
+
+    }
+}

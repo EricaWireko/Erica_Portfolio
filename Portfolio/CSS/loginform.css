@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url(/assignment/img/world.jpg);
+}
+
+.main{
+    border: 1px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    margin: 200px;
+    margin-top: 50px;
+    margin-right: 50px;
+    height: 270px;
+    width: 300px;
+    text-align: unset;
+    text-justify: auto;
+    border-radius: 5px;
+    justify-content: center;
+    box-shadow: 0 0 9px rgba(244,240, 240, 0.964);
+    background-color: transparent;
+}
+
+.div{
+    text-align: center;
+    border-spacing: 10px;
+}
+
+.header{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.botton:hover{
+    transition: rotate(330deg);
+}
+.last{
+    text-align: center ;
+}

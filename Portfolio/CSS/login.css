@@ -1,0 +1,65 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    font-family: sans-serif;
+}
+/* body{ */
+    /* background: url(/Assignment/img/world.jpg) no-repeat; */
+    /* background-size: cover; */
+/* } */
+
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.first{
+    font-size: 16px;
+    width: 100px;
+    padding: 1px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.second{
+    font-size: 16px;
+    width: 100px;
+    padding: 15px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.third{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
